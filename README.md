@@ -67,15 +67,15 @@ GET /{short_url} - Получение оригинального URL
 ## Примеры использования cURL
 
 ```bash
-# 1. Сокращение URL
+# Сокращение URL
 curl -X POST http://localhost:8080/shorten \
   -H "Content-Type: application/json" \
   -d '{"url":"https://google.com"}'
 
-# 2. Переход по короткой ссылке
+# Переход по короткой ссылке
 curl -L http://localhost:8080/abc123
 
-# 3. Проверка здоровья
+# Проверка здоровья
 curl http://localhost:8080/health
 ```
 
