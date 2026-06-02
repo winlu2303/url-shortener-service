@@ -23,7 +23,7 @@
 
 ```bash
 # Клонирование репозитория
-git clone https://github.com/YOUR_USERNAME/urlshortener-service.git
+git clone https://github.com/winlu23/urlshortener-service.git
 cd urlshortener-service
 
 # Инициализация модуля
